@@ -222,7 +222,7 @@ export default function POSPage() {
                     </div>
 
                     {cart.length === 0 ? (
-                        <div className="empty">Cart is empty. Add product atau scan.</div>
+                        <div className="empty">Cart is empty. Add product or scan.</div>
                     ) : (
                         <div className="cartlist">
                             {cart.map((l) => (
