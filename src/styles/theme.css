@@ -27,10 +27,10 @@ body,
 body {
     margin: 0;
     background: radial-gradient(1200px 600px at 10% -10%,
-            rgba(79, 140, 255, 0.12),
+            rgba(79, 141, 255, 0.24),
             transparent 60%),
         radial-gradient(1200px 600px at 110% 110%,
-            rgba(79, 255, 196, 0.08),
+            rgba(79, 255, 196, 0.11),
             transparent 60%),
         var(--bg);
     color: var(--text);
