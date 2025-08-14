@@ -36,8 +36,8 @@ export default function CartTotals({ subtotal, globalDiscountPct, taxPct, onGlob
             </div>
             <div className="row" style={{ marginTop: 12 }}>
                 <button className="btn primary" onClick={() => onPay(grandTotal)}>Pay</button>
-                <button className="btn">Shortcuts</button>
-                <button className="btn ghost">Hold Order</button>
+                {/* <button className="btn">Shortcuts</button>
+                <button className="btn ghost">Hold Order</button> */}
             </div>
         </>
     );
